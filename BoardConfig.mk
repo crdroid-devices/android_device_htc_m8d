@@ -39,7 +39,7 @@ TARGET_OTA_ASSERT_DEVICE := htc_m8dug,htc_m8dwg,m8dugl,m8dwgl
 
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := device/htc/m8d/mkbootimg.mk
-TARGET_KERNEL_CONFIG := cm_m8dug_defconfig
+TARGET_KERNEL_CONFIG := m8dug_defconfig
 
 # Audio
 AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
