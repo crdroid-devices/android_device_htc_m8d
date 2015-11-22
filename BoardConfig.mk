@@ -38,7 +38,6 @@
 TARGET_OTA_ASSERT_DEVICE := htc_m8dug,htc_m8dwg,m8dugl,m8dwgl
 
 # Kernel
-BOARD_CUSTOM_BOOTIMG_MK := device/htc/m8d/mkbootimg.mk
 TARGET_KERNEL_CONFIG := m8dug_defconfig
 
 # Audio
@@ -55,7 +54,7 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 11140071424
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/htc/m8d/init/init_m8d.c
+TARGET_LIBINIT_DEFINES_FILE := device/htc/m8d/init/init_m8d.cpp
 
 # Inherit from the proprietary version
 -include vendor/htc/m8d/BoardConfigVendor.mk
