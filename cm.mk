@@ -17,9 +17,9 @@
 $(call inherit-product, device/htc/m8d/full_m8d.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/crdroid/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit some common crdroid stuff.
-$(call inherit-product, vendor/crdroid/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := crdroid_m8d
+PRODUCT_NAME := cm_m8d
